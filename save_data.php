@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root","", "project");
+$conn = $db = mysqli_connect('sql208.infinityfree.com', 'if0_34806115', 'NmjOePTLzNR', 'if0_34806115_project');
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
