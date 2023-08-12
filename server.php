@@ -5,7 +5,7 @@ $username = "";
 $email    = "";
 $errors = array(); 
 
-$db = mysqli_connect('localhost', 'root', '', 'project');
+$db = mysqli_connect('sql208.infinityfree.com', 'if0_34806115', 'NmjOePTLzNR', 'if0_34806115_project');
 
 if (isset($_POST['reg_user'])) {
   $username = mysqli_real_escape_string($db, $_POST['username']);
