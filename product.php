@@ -19,7 +19,8 @@ $username = "";
 $email    = "";
 $errors = array(); 
 
-$db = mysqli_connect('localhost', 'root', '', 'project');
+$db = mysqli_connect('sql208.infinityfree.com', 'if0_34806115', 'NmjOePTLzNR', 'if0_34806115_project');
+
 
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
