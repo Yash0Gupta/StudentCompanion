@@ -1,0 +1,22 @@
+.info-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-header h2 {
+    margin: 0;
+}
+
+.info-details p {
+    margin: 0;
+}
